@@ -1,4 +1,7 @@
 deploy:
   provider: heroku
-  api_key: bdbef8c5-dc48-40ed-890b-511b600c45a4
-  app: apk
+  api_key:
+    secure: WWvqLAwcCEPgvn9wumRmDdcFS4VS/b9P9PQ3LqMlwVEtFfcwjbeV8m4f2zHpD0cIZpBVFhXo/+5xBkHRlO4+tjF/0AST/g4GPlhgElP8MNRpsRZJ2beawir04851CzYCebs6lI0kPtrS94FO3ivuV/u8JJrzIPy3EUh0NmzXo7A=
+  app: padtool
+  on:
+    repo: randylien/PADCAL
